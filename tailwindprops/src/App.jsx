@@ -12,7 +12,7 @@ function App() {
   return (
     <>
      <h1 className="bg-green-100 mb-10 font-semibold text-4xl p-5 rounded-xl shadow-lg">Animal Park</h1>
-     <div className="flex gap-6 grid grid-cols-4">
+     <div className="gap-6 grid grid-cols-4">
      {
       products.map((product, index)=>{
         return (<Card key={index} title={product.title} description={product.description} image={product.image}/>)
